@@ -1,2 +1,2 @@
 # codecademy-projects
-Notable codecademy projects I've completed
+Notable Codecademy projects I've completed
