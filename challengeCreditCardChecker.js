@@ -63,6 +63,7 @@ const validateCred = arr => {
     }
 }
 
+// Random numbers as "card number"
 let myCard = '4857849588847321';
 let myCardInt = parseInt(myCard);
 let myCardArr = [];
@@ -126,12 +127,4 @@ console.log(idInvalidCardCompanies(invalidCards));
 
 
 
-// const array = [1,2,3,4,5,6,7,8,9,10,11,12];
 
-// // for (let i = 1; i < array.length; i+=2) {
-// //     console.log(array[i]);
-// // }
-
-// for (let i = (array.length - 1); i >= 0; i -= 2) {
-//     console.log(array[i]);
-// }
