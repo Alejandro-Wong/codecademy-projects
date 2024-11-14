@@ -7,3 +7,4 @@ Notable Codecademy projects completed
 
 - FilmFinder: Project that demonstrates use of HTTP requests and asynchronous JavaScript to create a movie discovery app that recommends random movies by genre.
 
+- Jamming: "Challenge project" in Codecademy's React Course. React web application that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.
