@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Film Finder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400&family=Fredoka+One&family=Questrial&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="https://kit.fontawesome.com/e918d10e90.js" crossorigin="anonymous"></script>
+    <script defer src="./helpers.js"></script>
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="appTitle">🎞 What Movie Should I Watch? 🎞</h1>
+    </header>
+    <div id="description">
+        <p>
+            Don't know what to watch? Let Film Finder decide for you!<br> Simply choose a genre
+            and Film Finder will instantly suggest a movie from that genre to you.<br> Don't 
+            like the recommendation? Or perhaps you've already seen it? No problem!<br> Just
+            hit the thumbs up or thumbs down button to get a new movie recommendation!
+        </p>
+    </div>
+    <form id="genreForm">
+      <label>Choose a genre:</label>
+      <select name="genres" id="genres">
+      </select>
+    </form>
+    <button id="playBtn">Go!</button>
+    <div id="movieInfo">
+      <div id="moviePoster"></div>
+      <div id="movieText"></div>
+    </div>
+    <div id="likeOrDislikeBtns" hidden>
+      <button id="likeBtn">👍<i class="fa-solid fa-thumbs-up"></i></button>
+      <button id="dislikeBtn">👎<i class="fa-solid fa-thumbs-down"></i></button>
+    </div>
+  </body>
+</html>
