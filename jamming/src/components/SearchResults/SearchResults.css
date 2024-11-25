@@ -1,0 +1,32 @@
+.SearchResults {
+    /* border-style: solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    border-radius: 40px;
+    overflow: hidden;
+    
+}
+
+#searchResultsTitle {
+    background-color: black;
+    position: relative;
+    bottom: 5px;
+    text-align: center;
+    height: 40px;
+    width: 360px;
+    margin: auto;
+}
+
+.tracklistContainer {
+    /* border-style: solid; */
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+    height: 500px;
+    width: 345px;
+    overflow: scroll;
+    scrollbar-color: white black;
+}
